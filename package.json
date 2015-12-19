@@ -1,7 +1,7 @@
 {
   "name": "readutf",
   "description": "A thin wrapper around fs.readFile that automatically sets the encoding to utf8 on your behest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/readutf.js",
   "scripts": {
     "test": "gulp"
