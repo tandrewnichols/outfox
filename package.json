@@ -30,9 +30,7 @@
     "url": "https://github.com/tandrewnichols/readutf/issues"
   },
   "homepage": "https://github.com/tandrewnichols/readutf",
-  "dependencies": {
-    "safe-splice": "^1.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "coffee-script": "^1.10.0",
     "file-manifest": "^1.0.3",
