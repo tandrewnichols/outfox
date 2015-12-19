@@ -1,12 +1,12 @@
-[![Build Status](https://travis-ci.org/tandrewnichols/outfox.png)](https://travis-ci.org/tandrewnichols/outfox) [![downloads](http://img.shields.io/npm/dm/outfox.svg)](https://npmjs.org/package/outfox) [![npm](http://img.shields.io/npm/v/outfox.svg)](https://npmjs.org/package/outfox) [![Code Climate](https://codeclimate.com/github/tandrewnichols/outfox/badges/gpa.svg)](https://codeclimate.com/github/tandrewnichols/outfox) [![Test Coverage](https://codeclimate.com/github/tandrewnichols/outfox/badges/coverage.svg)](https://codeclimate.com/github/tandrewnichols/outfox) [![dependencies](https://david-dm.org/tandrewnichols/outfox.png)](https://david-dm.org/tandrewnichols/outfox) ![Size](https://img.shields.io/badge/size-368b-brightgreen.svg)
+[![Build Status](https://travis-ci.org/tandrewnichols/readUtf.png)](https://travis-ci.org/tandrewnichols/readUtf) [![downloads](http://img.shields.io/npm/dm/readUtf.svg)](https://npmjs.org/package/readUtf) [![npm](http://img.shields.io/npm/v/readUtf.svg)](https://npmjs.org/package/readUtf) [![Code Climate](https://codeclimate.com/github/tandrewnichols/readUtf/badges/gpa.svg)](https://codeclimate.com/github/tandrewnichols/readUtf) [![Test Coverage](https://codeclimate.com/github/tandrewnichols/readUtf/badges/coverage.svg)](https://codeclimate.com/github/tandrewnichols/readUtf) [![dependencies](https://david-dm.org/tandrewnichols/readUtf.png)](https://david-dm.org/tandrewnichols/readUtf) ![Size](https://img.shields.io/badge/size-368b-brightgreen.svg)
 
-# outfox
+# readUtf
 
-A thin wrapper around fs methods that automatically sets the encoding to utf8 on your behest
+A thin wrapper around fs.readFile that automatically sets the encoding to utf8 on your behest
 
 ## Installation
 
-`npm install --save outfox`
+`npm install --save readUtf`
 
 ## Summary
 

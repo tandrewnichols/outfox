@@ -1,2 +1,2 @@
-describe 'outfox', ->
-  Given -> @subject = require '../../lib/outfox'
+describe 'readUtf', ->
+  Given -> @subject = require '../../lib/readUtf'

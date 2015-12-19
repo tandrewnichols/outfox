@@ -1,5 +1,8 @@
 module.exports = {
-  tests: ['test/**/*.coffee', '!test/helpers/**/*.coffee'],
-  helpers: ['test/helpers/**/*.coffee'],
+  tests: {
+    unit: ['test/unit/helpers/**/*.coffee', 'test/unit/**/*.coffee'],
+    integration: ['test/integration/**/*.coffee']
+  },
+  helpers: ['test/unit/helpers/**/*.coffee'],
   lib: ['lib/**/*.js']
 };
