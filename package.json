@@ -1,14 +1,14 @@
 {
-  "name": "readUtf",
+  "name": "readutf",
   "description": "A thin wrapper around fs.readFile that automatically sets the encoding to utf8 on your behest",
   "version": "1.0.0",
-  "main": "lib/readUtf.js",
+  "main": "lib/readutf.js",
   "scripts": {
     "test": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tandrewnichols/readUtf.git"
+    "url": "git://github.com/tandrewnichols/readutf.git"
   },
   "keywords": [
     "fs",
@@ -27,9 +27,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tandrewnichols/readUtf/issues"
+    "url": "https://github.com/tandrewnichols/readutf/issues"
   },
-  "homepage": "https://github.com/tandrewnichols/readUtf",
+  "homepage": "https://github.com/tandrewnichols/readutf",
   "dependencies": {
     "safe-splice": "^1.0.0"
   },

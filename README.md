@@ -1,12 +1,12 @@
-[![Build Status](https://travis-ci.org/tandrewnichols/readUtf.png)](https://travis-ci.org/tandrewnichols/readUtf) [![downloads](http://img.shields.io/npm/dm/readUtf.svg)](https://npmjs.org/package/readUtf) [![npm](http://img.shields.io/npm/v/readUtf.svg)](https://npmjs.org/package/readUtf) [![Code Climate](https://codeclimate.com/github/tandrewnichols/readUtf/badges/gpa.svg)](https://codeclimate.com/github/tandrewnichols/readUtf) [![Test Coverage](https://codeclimate.com/github/tandrewnichols/readUtf/badges/coverage.svg)](https://codeclimate.com/github/tandrewnichols/readUtf) [![dependencies](https://david-dm.org/tandrewnichols/readUtf.png)](https://david-dm.org/tandrewnichols/readUtf)
+[![Build Status](https://travis-ci.org/tandrewnichols/readutf.png)](https://travis-ci.org/tandrewnichols/readutf) [![downloads](http://img.shields.io/npm/dm/readutf.svg)](https://npmjs.org/package/readutf) [![npm](http://img.shields.io/npm/v/readutf.svg)](https://npmjs.org/package/readutf) [![Code Climate](https://codeclimate.com/github/tandrewnichols/readutf/badges/gpa.svg)](https://codeclimate.com/github/tandrewnichols/readutf) [![Test Coverage](https://codeclimate.com/github/tandrewnichols/readutf/badges/coverage.svg)](https://codeclimate.com/github/tandrewnichols/readutf) [![dependencies](https://david-dm.org/tandrewnichols/readutf.png)](https://david-dm.org/tandrewnichols/readutf)
 
-# readUtf
+# readutf
 
 A thin wrapper around fs.readFile that automatically sets the encoding to utf8 on your behest
 
 ## Installation
 
-`npm install --save readUtf`
+`npm install --save readutf`
 
 ## Summary
 
@@ -15,7 +15,7 @@ I typically forget that "utf8" is not the default encoding when reading in a fil
 ## Usage
 
 ```
-var utf = require('readUtf');
+var utf = require('readutf');
 utf.readFile('./lib/filename.txt', function(err, contents) {
   // "contents" is a string
 });

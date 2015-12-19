@@ -1,12 +1,12 @@
 sinon = require 'sinon'
 proxyquire = require('proxyquire').noCallThru()
 
-describe 'readUtf', ->
+describe 'readutf', ->
   Given -> @fs =
     readFile: sinon.stub()
     readFileSync: sinon.stub()
 
-  Given -> @subject = proxyquire '../../lib/readUtf',
+  Given -> @subject = proxyquire '../../lib/readutf',
     fs: @fs
 
   describe '.readFile', ->

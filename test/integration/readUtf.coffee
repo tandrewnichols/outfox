@@ -1,2 +1,2 @@
-describe 'readUtf', ->
-  Given -> @subject = require '../../lib/readUtf'
+describe 'readutf', ->
+  Given -> @subject = require '../../lib/readutf'
